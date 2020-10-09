@@ -1,6 +1,6 @@
 FROM bezenaws/apache2_ubuntu
 
 
-RUN rm ./var/www/html/index.html
+RUN rm /var/www/html/index.html
 
-ADD ./index.html /var/html/www
+ADD ./index.html /var/www/html/
